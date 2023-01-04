@@ -9,7 +9,8 @@ const App = () => {
   return (
     <View style={{flex:1, backgroundColor: colors.dark}}>
       {/* <CoffeeDetailsScreen coffee={coffees[2]}/> */}
-      <HomeScreen/>
+      <HomeScreen navigation={this.props.navigation}/>
+
     </View>
   );
 };
