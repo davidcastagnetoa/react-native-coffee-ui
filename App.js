@@ -8,9 +8,8 @@ import coffees from "./app/config/coffees";
 const App = () => {
   return (
     <View style={{flex:1, backgroundColor: colors.dark}}>
-      {/* <CoffeeDetailsScreen coffee={coffees[2]}/> */}
-      <HomeScreen navigation={this.props.navigation}/>
-
+      <CoffeeDetailsScreen coffee={coffees[7]}/>
+      {/* <HomeScreen/> */}
     </View>
   );
 };

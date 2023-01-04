@@ -305,7 +305,7 @@ const CoffeeDetailsScreen = ({ coffee }) => {
       >
         <View
           style={{
-            padding: SPACING,
+            padding: SPACING / 2,
             alignItems: "center",
             justifyContent: "center",
           }}
@@ -345,7 +345,7 @@ const CoffeeDetailsScreen = ({ coffee }) => {
         <TouchableOpacity style={{
           marginRight: SPACING,
           backgroundColor: colors.primary,
-          width: width / 2 + SPACING * 3, 
+          width: width / 2 + SPACING * 2, 
           justifyContent: "center",
           alignItems: "center",
           borderRadius: SPACING * 2,

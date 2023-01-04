@@ -136,7 +136,6 @@ const HomeScreen = () => {
                   }}
                 >
                   <TouchableOpacity
-                    onPress={() => props.navigation.navigate("CoffeeDetails", { coffee: this.props.coffees[1] })}
                     style={{
                       height: 150,
                       width: "100%",
